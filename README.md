@@ -22,6 +22,8 @@ The Format
 It's actually a quite simple format, even though there are some bytes missing, the most interesting stuff is easy to get.
 Once you get the byte stream of "RenPrivateMessages", it can be read using the following parser:
 
+**RenPrivateMessages**
+
 <table>
   <tr>
     <th>Length in Bytes</th><th>Type</th><th>Value</th>
@@ -92,3 +94,8 @@ Once you get the byte stream of "RenPrivateMessages", it can be read using the f
     <td>Next item </td><td>---</td><td>---</td>
   </tr>
 </table>
+
+Appointment
+---------
+
+**RenPrivateAppointment**
